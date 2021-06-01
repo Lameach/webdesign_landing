@@ -1,0 +1,24 @@
+.mainScreen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainScreen__buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.mainScreen__text {
+  max-width: 354px;
+}
+
+.mainScreen__image {
+  min-width: 489px;
+  min-height: 489px;
+}
+
+.mainScreen__header {
+  font-size: 36px;
+}

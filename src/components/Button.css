@@ -1,0 +1,27 @@
+.button-Filled {
+  border-radius: 10px;
+  border-style: none;
+  background-color: #BF52D0;
+  color: #F3F3F3;
+  width: 150px;
+  height: 40px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.button-Bordered {
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  background-color: none;
+  border-color: #BF52D0;
+  color: #BF52D0;
+  width: 150px;
+  height: 40px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  cursor: pointer;
+  margin-right: 10px;
+}

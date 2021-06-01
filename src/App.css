@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("./Assets/Fonts/SourceSansPro-Black.ttf");
+  font-style: normal;
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./Assets/Fonts/OpenSans-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #f3f3f3;
+}
+
+.app {
+  padding-top: 54px;
+  padding-left: 100px;
+  padding-right: 100px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: #404040;
+  font-family: "Source Sans Pro";
+  font-weight: bolder;
+  margin-block: 0;
+}
+
+p {
+  color: #404040;
+  font-family: "Open Sans";
+  font-weight: normal;
+}
