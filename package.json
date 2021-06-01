@@ -1,0 +1,27 @@
+{
+  "name": "webdesign_landing",
+  "version": "1.0.0",
+  "description": "Website landing page for design studio",
+  "main": "src/index.tsx",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack serve --mode development"
+  },
+  "author": "danbot99@mail.ru",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.8",
+    "@types/react-dom": "^17.0.5",
+    "@types/webpack": "^5.28.0",
+    "html-webpack-plugin": "^5.3.1",
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
