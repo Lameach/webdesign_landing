@@ -26,16 +26,24 @@
   font-weight: bold;
 }
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("./Assets/Fonts/OpenSans-Light.ttf");
+  font-style: normal;
+  font-weight: lighter;
+}
+
 body {
   margin: 0;
   background-color: #f3f3f3;
 }
 
-.app {
+.content {
   padding-left: 10vw;
   padding-right: 10vw;
   flex-wrap: wrap;
   width: calc(80vw - (100vw - 100%));
+  position: static;
 }
 
 h1 {

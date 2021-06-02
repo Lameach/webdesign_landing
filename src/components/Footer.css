@@ -1,32 +1,33 @@
-.headerMenu {
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: absolute;
-  width: inherit;
-  padding-top: 5vh;
   width: calc(100vw - (100vw - 100%));
   padding-left: 10vw;
   padding-right: 10vw;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+  background-color: #6C6C6C;
   box-sizing: border-box;
 }
 
-.headerMenu__nav {
+.footer__nav {
   display: flex;
   justify-content: space-between;
   width: 50vw;
 }
 
-.headerMenu__navtext {
+.footer__navtext {
   font-family: "Open Sans";
   font-weight: normal;
   font-size: 100%;
-  color: #404040;
+  color: #EDEDED;
 }
 
-.headerMenu__contact {
+.footer__contact {
   font-family: "Open Sans";
   font-weight: normal;
   font-size: 100%;
-  color: #BF52D0;
+  color: #EDEDED;
 }

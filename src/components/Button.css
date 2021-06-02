@@ -18,17 +18,16 @@ button {
   border-radius: 10px;
   border-style: solid;
   border-width: 1px;
-  background-color: none;
+  background-color: transparent;
   border-color: #BF52D0;
   color: #BF52D0;
   cursor: pointer;
-  margin-right: 2vw;
 }
 
 @media screen and (min-width: 1300px) {
   button {
-    width: 225px;
-    height: 60px;
-    font-size: 24px;
+    width: 180px;
+    height: 48px;
+    font-size: 20px;
   }
 }

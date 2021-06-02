@@ -1,0 +1,23 @@
+.contactScreen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block-start: 5%;
+  height: 100vh;
+}
+
+.contactScreen__header {
+  margin-bottom: 10%;
+}
+
+.contactScreen__content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactScreen__image {
+  width: 35%;
+  height: auto;
+}
