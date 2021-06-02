@@ -1,0 +1,20 @@
+.advantageItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.advantageItem__header {
+  font-weight: bold;
+  text-align: center;
+}
+
+.advantageItem__text {
+  text-align: center;
+}
+
+.advantageItem__image {
+  margin-block-end: 1em;
+}

@@ -16,7 +16,7 @@ const MainScreen = () => {
             <Button text="Подробнее" styles={ButtonStyles.Bordered} action={() => null} />
           </div>
         </div>
-        <object type="image/svg+xml" data={content} className="mainScreen__image"></object>
+        <img src={content} className="mainScreen__image"/>
       </div>
   )
 }

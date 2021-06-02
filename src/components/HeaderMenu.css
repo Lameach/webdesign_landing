@@ -2,24 +2,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: absolute;
+  width: inherit;
+  padding-top: 5vh;
 }
 
 .headerMenu__nav {
   display: flex;
   justify-content: space-between;
-  width: 498px;
+  width: 50vw;
 }
 
 .headerMenu__navtext {
   font-family: "Open Sans";
   font-weight: normal;
-  font-size: 12px;
+  font-size: 100%;
   color: #404040;
 }
 
 .headerMenu__contact {
   font-family: "Open Sans";
   font-weight: normal;
-  font-size: 12px;
+  font-size: 100%;
   color: #BF52D0;
 }

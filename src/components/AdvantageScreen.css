@@ -1,0 +1,9 @@
+.advantageScreen {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-block-start: 10%;
+  padding-block-end: 5%;
+}

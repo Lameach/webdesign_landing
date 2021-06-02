@@ -2,7 +2,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const path = require('path');
 
 module.exports = {
-  mode: 'none',
+  mode: 'production',
   entry: {
     app: path.join(__dirname, 'src', 'index.tsx')
   },
@@ -32,7 +32,7 @@ module.exports = {
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'build')
   },
   plugins: [
     new HtmlWebpackPlugin({

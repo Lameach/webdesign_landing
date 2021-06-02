@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  height: 100vh;
 }
 
 .mainScreen__buttons {
@@ -11,14 +12,22 @@
 }
 
 .mainScreen__text {
-  max-width: 354px;
+  width: 40%;
 }
 
 .mainScreen__image {
-  min-width: 489px;
-  min-height: 489px;
+  width: 55%;
+  height: auto;
 }
 
-.mainScreen__header {
-  font-size: 36px;
+@media screen and (min-width: 1300px) {
+  .mainScreen__header {
+    font-size: 72px;
+  }
+  .mainScreen__description {
+    font-size: 28px;
+  }
+  .mainScreen__text {
+    max-width: 608px;
+  }
 }

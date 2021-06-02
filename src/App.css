@@ -12,30 +12,37 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: "Open Sans";
+  src: url("./Assets/Fonts/OpenSans-Bold.ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+
 body {
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-content: center;
   background-color: #f3f3f3;
 }
 
 .app {
-  padding-top: 54px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 10vw;
+  padding-right: 10vw;
   flex-wrap: wrap;
+  width: calc(80vw - (100vw - 100%));
 }
 
 h1 {
   color: #404040;
   font-family: "Source Sans Pro";
   font-weight: bolder;
+  font-size: 200%;
   margin-block: 0;
+  line-height: 100%;
 }
 
 p {
   color: #404040;
   font-family: "Open Sans";
   font-weight: normal;
+  font-size: 110%;
 }
