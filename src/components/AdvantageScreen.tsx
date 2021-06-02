@@ -1,9 +1,9 @@
 import React, { ElementType } from 'react'
 import AdvantageItem from './AdvantageItem'
-import fast from '../Assets/Icons/fast.png'
-import creative from '../Assets/Icons/creative.png'
-import universal from '../Assets/Icons/universal.png'
-import flexible from '../Assets/Icons/flexible.png'
+import fast from '../Assets/Icons/fast.svg'
+import creative from '../Assets/Icons/creative.svg'
+import universal from '../Assets/Icons/universal.svg'
+import flexible from '../Assets/Icons/flexible.svg'
 import './AdvantageScreen.css'
 
 const items_content: Array<{image: string, header: string, text: string}> = [

@@ -4,6 +4,7 @@ import HeaderMenu from './components/HeaderMenu'
 import './App.css'
 import AdvantageScreen from './components/AdvantageScreen';
 import ServiceScreen from './components/ServiceScreen';
+import WorkStepScreen from './components/WorkStepScreen';
 
 export default function App() {
   return <div className="app">
@@ -11,5 +12,6 @@ export default function App() {
     <MainScreen />
     <AdvantageScreen />
     <ServiceScreen />
+    <WorkStepScreen />
   </div>
 }

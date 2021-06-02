@@ -1,0 +1,14 @@
+.workStepItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  position:relative;
+}
+
+.workStepItem__text {
+  text-align: center;
+  position: absolute;
+  margin-top: 80px;
+}
