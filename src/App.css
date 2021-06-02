@@ -6,6 +6,13 @@
 }
 
 @font-face {
+  font-family: "Source Sans Pro";
+  src: url("./Assets/Fonts/SourceSansPro-Bold.ttf");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
   font-family: "Open Sans";
   src: url("./Assets/Fonts/OpenSans-Regular.ttf");
   font-style: normal;
@@ -40,7 +47,16 @@ h1 {
   line-height: 100%;
 }
 
-p {
+h2 {
+  color: #404040;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  font-size: 150%;
+  margin-block: 0;
+  line-height: 100%;
+}
+
+p, ul {
   color: #404040;
   font-family: "Open Sans";
   font-weight: normal;
