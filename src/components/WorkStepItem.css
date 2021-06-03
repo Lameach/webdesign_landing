@@ -9,6 +9,25 @@
 
 .workStepItem__text {
   text-align: center;
-  position: absolute;
-  margin-top: 80px;
+  margin-top: -2vh;
+}
+
+.workStepItem__image {
+  z-index: -1;
+}
+
+@media screen and (max-width: 800px) {
+  .workStepItem {
+    width: 50%;
+    margin-bottom: 2.5vh;
+    margin-top: 2.5vh;
+    width: 50%;
+  }
+  .workStepItem__image {
+    margin-block-end: 0;
+  }
+  .workStepItem__text {
+    margin-block-start: 0.5vh;
+    margin-top: -3vh;
+  }
 }

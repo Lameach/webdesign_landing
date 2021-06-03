@@ -31,3 +31,28 @@
     max-width: 608px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .mainScreen {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+  }
+  .mainScreen__text {
+    width: 70%;
+    margin-top: 0;
+    margin-bottom: auto;
+    align-items: center;
+  }
+  .mainScreen__image {
+    width: 70%;
+    height: auto;
+    margin-top: 20vh;
+    margin-bottom: auto;
+  }
+  .mainScreen__header {
+    font-size: 36px;
+  }
+  .mainScreen__description {
+    font-size: 18px;
+  }  
+}

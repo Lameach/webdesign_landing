@@ -31,7 +31,7 @@ const items: Array<JSX.Element> = items_content.map((item) => {
 
 const WorkStepScreen = () => {
   return (
-    <div className="workStepScreen">
+    <div className="workStepScreen" id="worksteps">
       <h2>Этапы работы</h2>
       <div className="workStepScreen__items">
         {items}

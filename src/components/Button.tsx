@@ -1,4 +1,4 @@
-import React, { ButtonHTMLAttributes } from 'react'
+import React, { ButtonHTMLAttributes, MouseEventHandler } from 'react'
 import ButtonStyles from '../enums'
 import './Button.css'
 
@@ -10,7 +10,7 @@ interface IButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 
 const Button : React.FC<IButtonProps> = ({text, styles, action}) => {
   return (
-    <button className={"button-" + styles}>{text}</button>
+    <button className={"button-" + styles} onClick={() => action()}>{text}</button>
   )
 }
 

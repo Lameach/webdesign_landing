@@ -35,7 +35,7 @@ const items: Array<JSX.Element> = items_content.map((item) => {
 
 const AdvantageScreen = () => {
   return (
-    <div className="advantageScreen">
+    <div className="advantageScreen" id="advantages">
       {items}
     </div>
   )

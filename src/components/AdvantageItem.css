@@ -18,3 +18,19 @@
 .advantageItem__image {
   margin-block-end: 1em;
 }
+
+@media screen and (max-width: 800px) {
+  .advantageItem {
+    width: 50%;
+    margin-bottom: 5vh;
+  }
+  .advantageItem__image {
+    margin-block-end: 0;
+  }
+  .advantageItem__header {
+    margin-block-end: 0;
+  }
+  .advantageItem__text {
+    margin-block-start: 0.5vh;
+  }
+}

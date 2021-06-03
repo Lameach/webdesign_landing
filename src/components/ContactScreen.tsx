@@ -7,7 +7,7 @@ let submit: void;
 
 const ContactScreen = () => {
   return (
-    <div className="contactScreen">
+    <div className="contactScreen" id="contact">
       <div className="contactScreen__content">
         <h2 className="contactScreen__header">Связаться и заказать</h2>
         <ContactForm submit={submit} />

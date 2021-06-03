@@ -13,8 +13,8 @@ const WorkStepItem: React.FC<Props> = ({image, text}: Props) => {
   const otherWords: string = allWords.join(" ")
   return (
     <div className="workStepItem">
-      <p className="workStepItem__text"><strong>{boldWord}</strong><br/>{otherWords}</p>
       <img src={image} className="workStepItem__image"/>
+      <p className="workStepItem__text"><strong>{boldWord}</strong><br/>{otherWords}</p>
     </div>
   )
 }
