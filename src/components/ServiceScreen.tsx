@@ -5,7 +5,8 @@ import Button from './Button'
 import './ServiceScreen.css'
 import { scroller } from 'react-scroll'
 
-const calcClick = () => {
+const calcClick = (e: HTMLElement) => {
+  e.blur();
   scroller.scrollTo('contact', {
     smooth: true,
     offset: 100,

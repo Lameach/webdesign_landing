@@ -5,14 +5,16 @@ import './MainScreen.css'
 import Button from './Button'
 import { animateScroll, scroller } from 'react-scroll'
 
-const purchaseClick = () => {
+const purchaseClick = (e: HTMLElement) => {
+  e.blur()
   scroller.scrollTo('contact', {
     smooth: true,
     offset: 100,
   })
 }
 
-const infoClick = () => {
+const infoClick = (e: HTMLElement) => {
+  e.blur();
   scroller.scrollTo('advantages', {
     smooth: true,
   })

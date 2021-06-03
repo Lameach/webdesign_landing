@@ -4,7 +4,7 @@ import './HeaderMenu.css'
 import Logo from '../Assets/logo.png'
 
 
-interface INavLink {
+export interface INavLink {
   text: string,
   href: string
 }

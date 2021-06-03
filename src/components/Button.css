@@ -24,6 +24,22 @@ button {
   cursor: pointer;
 }
 
+.button-Filled:focus {
+  background-color: #993ea7;
+}
+
+.button-Filled:disabled {
+  background-color: #BF52D0;
+}
+
+.button-Bordered:focus {
+  background-color: #c7c7c7;
+}
+
+.button-Bordered:disabled {
+  background-color: transparent;
+}
+
 @media screen and (min-width: 1300px) {
   button {
     width: 180px;

@@ -32,6 +32,16 @@
   color: #EDEDED;
 }
 
+@media screen and (max-width: 1000px) {
+  .footer__navtext, .footer__contact {
+    font-size: 9pt;
+  }
+  .footer__image {
+    width: 90px;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .footer__navtext {
     display: none;
